@@ -1,4 +1,4 @@
-import React from "react";
+import styles from "./NavBar.module.css";
 
 export default function NavBar() {
   // array to contain whatever page names or links need to be in the NavBar

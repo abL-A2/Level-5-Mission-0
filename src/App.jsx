@@ -2,11 +2,14 @@
 import "./App.css";
 // components
 import { NavBar } from "./components/NavBar";
+// pages
+import { Home } from "./pages/Home";
 
 function App() {
   return (
     <>
       <NavBar />
+      <Home />
     </>
   );
 }
