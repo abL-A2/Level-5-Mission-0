@@ -16,7 +16,10 @@ export default function NavBar() {
   return (
     <div>
       <nav>
-        <ul>{navBarDisplay}</ul>
+        <div className={styles.logo}>
+          <img src="" alt="Company logo" />
+        </div>
+        <ul className={styles.navList}>{navBarDisplay}</ul>
       </nav>
     </div>
   );
