@@ -13,9 +13,10 @@ export default function home() {
         </div>
       </div>
       <body className={styles.body}>
-        This container is for the captioned thumbnails<div></div>
+        This container is for the captioned thumbnails
+        <div className={styles.thumbnailGrid}>{/* a function will go here that dynamically renders thumbnails */}</div>
       </body>
-      <footer>Lorem ipsum dolor sit amet</footer>
+      <footer className={styles.footer}>Lorem ipsum dolor sit amet</footer>
     </div>
   );
 }
