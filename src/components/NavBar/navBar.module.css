@@ -1,37 +1,38 @@
+/* navbar extends all the way across the top */
 .navContainer {
   width: 100%;
 }
 
+/* pushes logo to the left and navLinks to the right */
+.navContainer nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+/* list container for navLinks */
 .navList {
   list-style-type: none;
   display: flex;
   margin: 0;
   padding: 0;
-  width: 120px;
-  border: 1px solid #555;
   align-items: center;
-}
-
-.navLinks {
   text-align: center;
-  border-bottom: 1px solid #555;
 }
 
+/* link styling */
 .navLinks a {
   display: block;
   padding: 8px 16px;
   background-color: #dddddd;
   color: #333;
-  text-decoration: none; /* Remove underline */
-  border-radius: 4px;
+  text-decoration: none;
   transition: background-color 0.3s;
 }
 
+/* on-hover feedback */
 .navLinks a:hover {
   cursor: pointer;
   background-color: #cccccc;
-}
-
-.logo {
-  margin-right: auto;
 }

@@ -1,12 +1,12 @@
-// import styles from "./mediacard.module.css";
-// MUI imports
+// MUI hooks to enable responsive column arrangement
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
+// MUI imports for image list layout
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
 
-// example array of thumbnail items to display
+// example array of card objects to display
 // ? eventually replace with queries
 const mediaCardItems = [
   {
@@ -34,7 +34,7 @@ const mediaCardItems = [
     url: `https://www.nzbirdsonline.org.nz/species/pukeko`,
   },
 ];
-// this component dynamically renders media with accompanying text - either a caption or a snippet, ideal for newsbites - using properties passed through from a database, though for demonstration we are using the hardcoded dummy array above
+// dynamically renders media with captions or snippets, ideal for newsbites; hardcoded array for demo only
 export default function MediaCard() {
   // MUI hook to get size breakpoints
   const theme = useTheme();
@@ -62,13 +62,8 @@ export default function MediaCard() {
       {mediaCardItems.map((card, index) => (
         <a href={card.url} target="_blank" key={index} style={{ textDecoration: "none", color: "inherit" }}>
           <ImageListItem>
-            {/* fits the image to card, loads image only when user scroll approaches the image */}
-            <img
-              src={card.image}
-              alt={card.alt}
-              style={{ width: "100%", height: "100%", objectFit: "cover" }}
-              loading="lazy"
-            />
+            {/* fits the image to card */}
+            <img src={card.image} alt={card.alt} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
             <ImageListItemBar title={card.caption}></ImageListItemBar>
           </ImageListItem>
         </a>

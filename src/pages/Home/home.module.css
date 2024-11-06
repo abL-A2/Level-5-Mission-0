@@ -1,6 +1,51 @@
-/* placeholder colour, 20% opacity */
+.main {
+}
+
+/* hero banner containing search bar - background currently placeholder */
+.heroBanner {
+  /* darkens the background image to make text pop */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Bliss-large.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 50vh;
+  padding: 25px;
+}
+/* text inside hero banner */
+.bannerText {
+  text-align: left;
+  color: white;
+}
+
+.heroBanner h1 {
+  font-size: 2rem;
+}
+
+.heroBanner p {
+  font-style: italic;
+}
+
+/* container for the media card displays */
 .cardContainer {
   background-color: rgba(5, 41, 158, 0.2);
   padding: 12px;
   width: 100%;
+}
+
+/* adjustment for tablet screens and smaller */
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    height: 30vh; /* 30% of the viewport height for small screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroBanner h1 {
+    font-size: 1.3rem;
+  }
+
+  .heroBanner p {
+    font-size: 0.8rem;
+  }
 }

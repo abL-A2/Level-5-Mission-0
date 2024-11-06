@@ -5,9 +5,10 @@ import MediaCard from "./mediacard";
 
 export default function Home() {
   return (
-    <div>
-      <div className={styles.banner}>
-        <p>Lorem Ipsum, banner background & search bar goes here</p>
+    <div className={styles.main}>
+      <div className={styles.heroBanner}>
+        <h1 className={styles.bannerText}>New Zealand Marketing Association</h1>
+        <p className={styles.bannerText}>Lorem ipsum dolor sit amet</p>
         <div className={styles.searchContainer}>
           <form>
             <input type="text" placeholder="search..." name="search" />
@@ -16,7 +17,6 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.cardContainer}>
-        This container is for the captioned thumbnails
         <div className={styles.cardGrid}>
           <MediaCard />
         </div>
