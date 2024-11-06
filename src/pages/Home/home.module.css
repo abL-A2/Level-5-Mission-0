@@ -1,0 +1,6 @@
+/* placeholder colour, 20% opacity */
+.cardContainer {
+  background-color: rgba(5, 41, 158, 0.2);
+  padding: 12px;
+  width: 100%;
+}

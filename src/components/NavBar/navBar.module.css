@@ -1,0 +1,37 @@
+.navContainer {
+  width: 100%;
+}
+
+.navList {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  border: 1px solid #555;
+  align-items: center;
+}
+
+.navLinks {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+.navLinks a {
+  display: block;
+  padding: 8px 16px;
+  background-color: #dddddd;
+  color: #333;
+  text-decoration: none; /* Remove underline */
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.navLinks a:hover {
+  cursor: pointer;
+  background-color: #cccccc;
+}
+
+.logo {
+  margin-right: auto;
+}

@@ -7,14 +7,14 @@ export default function NavBar() {
   // function to add a nav button per page or link in the array navBarLinks
   const navBarDisplay = navBarItems.map((link, index) => {
     return (
-      <li key={index}>
+      <li className={styles.navLinks} key={index}>
         <a>{link}</a>
       </li>
     );
   });
 
   return (
-    <div>
+    <div className={styles.navContainer}>
       <nav>
         <div className={styles.logo}>
           <img src="" alt="Company logo" />
