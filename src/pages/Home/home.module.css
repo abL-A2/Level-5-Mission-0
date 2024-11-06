@@ -1,10 +1,22 @@
-.main {
+/* Bliss wallpaper approx RGB:
+
+Sky Blue: #87CEEB (RGB: 135, 206, 235)
+Grass Green: #7CFC00 (RGB: 124, 252, 0) */
+
+/* .main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
+.content {
+  flex: 1;
+  align-content: center;
+} */
 
 /* hero banner containing search bar - background currently placeholder */
 .heroBanner {
-  /* darkens the background image to make text pop */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Bliss-large.jpg");
+  background-image: url("Bliss-large.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,10 +27,11 @@
 /* text inside hero banner */
 .bannerText {
   text-align: left;
-  color: white;
+  color: darkblue;
 }
 
 .heroBanner h1 {
+  padding-top: 59px;
   font-size: 2rem;
 }
 
@@ -28,20 +41,22 @@
 
 /* container for the media card displays */
 .cardContainer {
-  background-color: rgba(5, 41, 158, 0.2);
+  background-color: rgba(124, 252, 0, 0.2);
   padding: 12px;
   width: 100%;
 }
 
 .footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
   text-align: center;
+  color: rgb(26, 58, 94);
+  background-color: rgb(135, 206, 235);
+  width: 100%;
+  margin-top: auto;
   padding-top: 10vh;
   padding-bottom: 3vh;
   font-style: italic;
   font-size: 0.9rem;
+  height: 30vh;
 }
 
 /* adjustment for tablet screens and smaller */

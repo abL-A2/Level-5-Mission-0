@@ -8,8 +8,12 @@ import { Home } from "./pages/Home";
 function App() {
   return (
     <>
-      <NavBar />
-      <Home />
+      <div className="main">
+        <NavBar />
+        <div className="content">
+          <Home />
+        </div>
+      </div>
     </>
   );
 }

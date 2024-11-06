@@ -44,8 +44,11 @@ export default function NavBar() {
         {/* conditional to resize nav elements into small menu icon */}
         {isSmallScreen ? (
           <>
-            <MenuIcon sx={{ fontSize: "2rem", cursor: "pointer" }} onClick={toggleMenu} />
-            <DrawerMenu open={menuOpen} onClose={toggleMenu} items={navBarItems} />{" "}
+            <MenuIcon
+              sx={{ position: "absolute", right: "16px", fontSize: "2rem", cursor: "pointer" }}
+              onClick={toggleMenu}
+            />
+            <DrawerMenu open={menuOpen} onClose={toggleMenu} items={navBarItems} />
           </>
         ) : (
           <ul className={styles.navList}>{navBarDisplay}</ul>

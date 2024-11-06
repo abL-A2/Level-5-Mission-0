@@ -8,30 +8,38 @@ import ImageListItemBar from "@mui/material/ImageListItemBar";
 
 // example array of card objects to display
 // ? eventually replace with queries
+// placeholder text
+const ph = `Lorem ipsum dolor`;
 const mediaCardItems = [
   {
     image: "/cat-public.png",
-    caption: `Lorem ipsum dolor cat.`,
+    caption: ph,
     alt: `A cat with an orange background`,
     url: `https://http.cat/`,
   },
   {
     image: "/dog-public.jpg",
-    caption: `Lorem ipsum dogor.`,
+    caption: `Lorem ipsum dogor`,
     alt: `A dog with a bokeh background`,
     url: `https://http.dog/`,
   },
   {
     image: "/piwakawaka-public.jpg",
-    caption: `Lorem ipsum dolor piwakawaka`,
+    caption: ph,
     alt: `A piwakawaka perched on a branch`,
     url: `https://en.wikipedia.org/wiki/Fantail`,
   },
   {
     image: "/pukeko-public.jpg",
-    caption: `Lorem ipsum dolor pukeko`,
+    caption: ph,
     alt: `A pukeko striding on turf`,
     url: `https://www.nzbirdsonline.org.nz/species/pukeko`,
+  },
+  {
+    image: "/cat-public.png",
+    caption: ph,
+    alt: `A cat with an orange background`,
+    url: `https://http.cat/`,
   },
 ];
 // dynamically renders media with captions or snippets, ideal for newsbites; hardcoded array for demo only
@@ -49,25 +57,29 @@ export default function MediaCard() {
   const cols = isXs ? 1 : isSm ? 2 : isMd ? 3 : isXlOrLarger ? 5 : 4;
 
   return (
-    <ImageList
-      sx={{
-        width: "100%",
-        height: "auto",
-      }}
-      cols={cols}
-      gap={8}
-      rowHeight={200}
-    >
-      {/* enables dynamic rendering of media card objects through their props */}
-      {mediaCardItems.map((card, index) => (
-        <a href={card.url} target="_blank" key={index} style={{ textDecoration: "none", color: "inherit" }}>
-          <ImageListItem>
-            {/* fits the image to card */}
-            <img src={card.image} alt={card.alt} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
-            <ImageListItemBar title={card.caption}></ImageListItemBar>
-          </ImageListItem>
-        </a>
-      ))}
-    </ImageList>
+    <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
+      <ImageList
+        sx={{
+          flex: "1",
+          width: "100%",
+          height: "auto",
+          // alignItems: "center",
+        }}
+        cols={cols}
+        gap={8}
+        rowHeight={200}
+      >
+        {/* enables dynamic rendering of media card objects through their props */}
+        {mediaCardItems.map((card, index) => (
+          <a href={card.url} target="_blank" key={index} style={{ textDecoration: "none", color: "inherit" }}>
+            <ImageListItem>
+              {/* fits the image to card */}
+              <img src={card.image} alt={card.alt} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+              <ImageListItemBar title={card.caption}></ImageListItemBar>
+            </ImageListItem>
+          </a>
+        ))}
+      </ImageList>
+    </div>
   );
 }

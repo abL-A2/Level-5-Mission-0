@@ -1,14 +1,25 @@
-/* navbar extends all the way across the top */
+/* Bliss wallpaper approx RGB:
+
+Sky Blue: #87CEEB (RGB: 135, 206, 235)
+Grass Green: #7CFC00 (RGB: 124, 252, 0) */
+
+/* navbar fixed and extends all the way across the top, always on top of other elements, and pushes its children apart */
 .navContainer {
   width: 100%;
+  background-color: rgb(135, 206, 235);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  justify-content: space-between;
 }
 
-/* pushes logo to the left and navLinks to the right */
+.logo {
+  /* padding-left: 16px; */
+}
+
 .navContainer nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 16px;
 }
 
 /* list container for navLinks */
@@ -19,14 +30,15 @@
   padding: 0;
   align-items: center;
   text-align: center;
+  margin-left: auto;
 }
 
 /* link styling */
 .navLinks a {
   display: block;
   padding: 8px 16px;
-  background-color: #dddddd;
-  color: #333;
+  background-color: rgb(200, 227, 255);
+  color: rgb(26, 26, 26);
   text-decoration: none;
   transition: background-color 0.3s;
 }
@@ -34,5 +46,5 @@
 /* on-hover feedback */
 .navLinks a:hover {
   cursor: pointer;
-  background-color: #cccccc;
+  background-color: rgb(180, 217, 240);
 }

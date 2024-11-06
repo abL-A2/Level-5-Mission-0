@@ -7,7 +7,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html,
@@ -15,4 +15,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
 }
