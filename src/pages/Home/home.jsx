@@ -1,7 +1,7 @@
 // styles
 import styles from "./home.module.css";
 // components
-import Thumbnail from "./thumbnail";
+import MediaCard from "./mediacard";
 
 export default function Home() {
   return (
@@ -15,10 +15,10 @@ export default function Home() {
           </form>
         </div>
       </div>
-      <div className={styles.thumbnailContainer}>
+      <div className={styles.cardContainer}>
         This container is for the captioned thumbnails
-        <div className={styles.thumbnailGrid}>
-          <Thumbnail />
+        <div className={styles.cardGrid}>
+          <MediaCard />
         </div>
       </div>
       <footer className={styles.footer}>Lorem ipsum dolor sit amet</footer>
