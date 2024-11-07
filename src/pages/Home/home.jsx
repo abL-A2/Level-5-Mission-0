@@ -25,7 +25,7 @@ export default function Home() {
                   type="search"
                   variant="filled"
                   className="searchBox"
-                  color="white"
+                  color="white" // somehow turns off label colour change on :focus
                   sx={{
                     backGround: "rgb(115, 147, 179)",
                     width: "70%",

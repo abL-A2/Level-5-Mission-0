@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-// MUI imports for hamburger drawer menu
+// * MUI imports for hamburger drawer menu
 import { List, ListItem, ListItemText, Drawer } from "@mui/material";
 
 export default function DrawerMenu({ open, onClose, items }) {

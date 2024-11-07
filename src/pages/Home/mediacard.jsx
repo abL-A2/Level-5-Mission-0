@@ -50,7 +50,7 @@ export default function MediaCard() {
   const isXs = useMediaQuery(theme.breakpoints.down("sm"));
   const isSm = useMediaQuery(theme.breakpoints.down("md"));
   const isMd = useMediaQuery(theme.breakpoints.down("lg"));
-  // for screens beyond 1200px
+  // for screens beyond 1200px like freakin Sam's
   const isXlOrLarger = useMediaQuery(theme.breakpoints.up("xl"));
 
   // column count per screen size - mobiles(1) : tablets(2) : small pc screens(3) : widescreens(5) : default (4)
@@ -63,7 +63,6 @@ export default function MediaCard() {
           flex: "1",
           width: "100%",
           height: "auto",
-          // alignItems: "center",
         }}
         cols={cols}
         gap={8}

@@ -10,7 +10,7 @@ Grass Green: #7CFC00 (RGB: 124, 252, 0) */
   position: fixed;
   top: 0;
   z-index: 1000;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .navContainer nav {
