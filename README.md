@@ -97,6 +97,15 @@ Due to my inexperience, the sheer depth of options available for MUI elements, a
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Presentation
+
+Below are the frames used for the Mission Show & Tell
+
+![Presentation: Frame 1](presentation/presentation-frame-1.png)
+![Presentation: Frame 2](presentation/presentation-frame-2.png)
+![Presentation: Frame 3](presentation/presentation-frame-3.png)
+![Presentation: Frame 4](presentation/presentation-frame-4.png)
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
