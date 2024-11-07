@@ -8,12 +8,12 @@ import ImageListItemBar from "@mui/material/ImageListItemBar";
 
 // example array of card objects to display
 // ? eventually replace with queries
-// placeholder text
-const ph = `Lorem ipsum dolor`;
+
+const placeHolder = `Lorem ipsum dolor`;
 const mediaCardItems = [
   {
     image: "/cat-public.png",
-    caption: ph,
+    caption: placeHolder,
     alt: `A cat with an orange background`,
     url: `https://http.cat/`,
   },
@@ -25,19 +25,19 @@ const mediaCardItems = [
   },
   {
     image: "/piwakawaka-public.jpg",
-    caption: ph,
+    caption: placeHolder,
     alt: `A piwakawaka perched on a branch`,
     url: `https://en.wikipedia.org/wiki/Fantail`,
   },
   {
     image: "/pukeko-public.jpg",
-    caption: ph,
+    caption: placeHolder,
     alt: `A pukeko striding on turf`,
     url: `https://www.nzbirdsonline.org.nz/species/pukeko`,
   },
   {
     image: "/cat-public.png",
-    caption: ph,
+    caption: placeHolder,
     alt: `A cat with an orange background`,
     url: `https://http.cat/`,
   },
