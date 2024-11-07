@@ -62,7 +62,7 @@ This prototype aims to fullfil the brief for Mission 0, with considerations made
 - npm
 
   ```sh
-  npm install npm@latest -g
+  npm install
   ```
 
 - mui
