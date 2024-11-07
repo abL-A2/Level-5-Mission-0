@@ -18,12 +18,14 @@
       </ul>
     </li>
     <li><a href="#prerequisites">Prerequisites</a></li>
-    <li><a href="#execution">Execution</a>
-    <ul>
-        <li><a href="#considerations"></a></li>
-        <li><a href="#implementation"></a></li>
-        <li><a href="#challenges"></a></li>
-    </ul></li>
+    <li>
+  <a href="#execution">Execution</a>
+  <ul>
+    <li><a href="#considerations">Considerations</a></li>
+    <li><a href="#implementation">Implementation</a></li>
+    <li><a href="#challenges">Challenges</a></li>
+  </ul>
+</li>
     <li><a href="#presentation"></a></li>
     </li>
     <li><a href="#usage">Usage</a></li>
