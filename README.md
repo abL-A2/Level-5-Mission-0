@@ -85,83 +85,21 @@ Key assumptions:
 
 ### Implementation
 
-The colour theme is less a suggestion and more a way to make each part of the page easy to distinguish for ease with future styling. Hero banners are probably best served by on-brand background images or corporate wallpapers, but the brief didn't stipulate that we must suggest a visual theme.
+The colour theme is less a suggestion and more a way to make each part of the page easy to distinguish for ease of future styling. Hero banners are probably best served by on-brand background images or corporate wallpapers.
 
-While we only needed one page, i
+While we only needed one page, I took advantage of React's modularity to divide that one page into smaller, generally dynamic components. This makes those components reusable, scalable, and easier to maintain, all qualities that could be valuable in a template.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Challenges
 
-<!-- ROADMAP -->
+I took this as a chance to try using Material UI elements, something I've never done. I had intended to use MUI for all the elements in the page for a more cohesive design both in the render and the code.
 
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-  - [ ] Chinese
-  - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+Due to my inexperience, the sheer depth of options available for MUI elements, and just my own learning speed, I had to choose to scale back my use of MUI elements to some but not all parts of the code. Some core elements (ex. the media cards' <ImageList/>) use MUI, but the rest of the code falls back onto CSS modules. This undermines the maintainability of the code due to inconsistency and the added styling complexity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Top contributors:
-
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
-</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTACT -->
-
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-- [Malven's Grid Cheatsheet](https://grid.malven.co/)
-- [Img Shields](https://shields.io)
-- [GitHub Pages](https://pages.github.com)
-- [Font Awesome](https://fontawesome.com)
-- [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
