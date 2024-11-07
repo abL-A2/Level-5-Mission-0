@@ -13,15 +13,18 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#the-brief">Built With</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#execution">Execution</a>
+    <ul>
+        <li><a href="#considerations"></a>
+        <li><a href="#implementation"></a></li>
+        <li><a href="#challenges"></a></li>
+    </ul>
+    <li><a href="#presentation"></a></li>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
