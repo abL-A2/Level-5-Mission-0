@@ -21,26 +21,26 @@ export default function Home() {
               <div style={{ position: "relative", height: "100%" }}>
                 <TextField
                   id="filled-search"
-                  label="Search field"
+                  label="Search website"
                   type="search"
                   variant="filled"
                   className="searchBox"
+                  color="white"
                   sx={{
-                    position: "absolute",
-                    bottom: "26px",
-                    left: "50%",
-                    transform: "translateX(-50%)",
+                    backGround: "rgb(115, 147, 179)",
                     width: "70%",
+                    maxWidth: "550px",
+                    marginTop: "auto",
                   }}
                 />
               </div>
             </form>
           </div>
         </div>
-        <div className={styles.cardContainer}>
-          <div className={styles.cardGrid}>
-            <MediaCard />
-          </div>
+      </div>
+      <div className={styles.cardContainer}>
+        <div className={styles.cardGrid}>
+          <MediaCard />
         </div>
       </div>
       <footer className={styles.footer}>Lorem ipsum dolor sit amet</footer>

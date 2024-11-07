@@ -2,21 +2,21 @@
 
 Sky Blue: #87CEEB (RGB: 135, 206, 235)
 Grass Green: #7CFC00 (RGB: 124, 252, 0) */
-
-/* .main {
+.main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-.content {
+/* .content {
   flex: 1;
   align-content: center;
-} */
+}  */
 
 /* hero banner containing search bar - background currently placeholder */
 .heroBanner {
-  background-image: url("Bliss-large.jpg");
+  /* background-image: url("Bliss-large.jpg"); */
+  background-color: rgb(116, 166, 233); /* cornflower blue */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,7 +27,7 @@ Grass Green: #7CFC00 (RGB: 124, 252, 0) */
 /* text inside hero banner */
 .bannerText {
   text-align: left;
-  color: darkblue;
+  color: rgb(26, 58, 94); /* dark blue */
 }
 
 .heroBanner h1 {
@@ -39,17 +39,25 @@ Grass Green: #7CFC00 (RGB: 124, 252, 0) */
   font-style: italic;
 }
 
+.searchContainer {
+  /* display: flex;
+  justify-content: center; */
+  position: relative;
+  height: 100%;
+  padding-top: 3rem;
+}
+
 /* container for the media card displays */
 .cardContainer {
-  background-color: rgba(124, 252, 0, 0.2);
+  background-color: rgb(144, 238, 144); /* pastel green */
   padding: 12px;
   width: 100%;
 }
 
 .footer {
   text-align: center;
-  color: rgb(26, 58, 94);
-  background-color: rgb(135, 206, 235);
+  color: rgb(26, 58, 94); /* dark blue */
+  background-color: rgb(116, 166, 233); /* cornflower blue */
   width: 100%;
   margin-top: auto;
   padding-top: 10vh;
@@ -62,11 +70,9 @@ Grass Green: #7CFC00 (RGB: 124, 252, 0) */
 /* adjustment for tablet screens and smaller */
 @media screen and (max-width: 768px) {
   .heroBanner {
-    height: 30vh; /* 30% of the viewport height for small screens */
+    height: 35vh;
+    padding: 2px;
   }
-}
-
-@media screen and (max-width: 768px) {
   .heroBanner h1 {
     font-size: 1.3rem;
   }

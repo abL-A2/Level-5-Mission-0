@@ -3,18 +3,14 @@
 Sky Blue: #87CEEB (RGB: 135, 206, 235)
 Grass Green: #7CFC00 (RGB: 124, 252, 0) */
 
-/* navbar fixed and extends all the way across the top, always on top of other elements, and pushes its children apart */
+/* navbar */
 .navContainer {
   width: 100%;
-  background-color: rgb(135, 206, 235);
+  background-color: rgb(135, 206, 235); /* light blue */
   position: fixed;
   top: 0;
   z-index: 1000;
   justify-content: space-between;
-}
-
-.logo {
-  /* padding-left: 16px; */
 }
 
 .navContainer nav {
