@@ -32,8 +32,8 @@
 
 ## About The Project
 
-[!Desktop Screen Shot](public/project-screencap-desktop.png)
-[!Mobile Screen Shot](public/project-screencap-mobile.png)
+![Desktop Screen Shot](public/project-screencap-desktop.png)
+![Mobile Screen Shot](public/project-screencap-mobile.png)
 
 This prototype aims to fullfil the brief for Mission 0, with considerations made for its end use as a template and a lot of attention paid to surrounding documentation and presentation.
 
@@ -43,15 +43,15 @@ This prototype aims to fullfil the brief for Mission 0, with considerations made
 
 > You will need to create one page with a mobile responsive layout that resembles the wireframe as shown:
 
-[!Desktop Wireframe](public/desktop-view.png)
-[!Mobile Wireframe](public/mobile-view.png)
+![Desktop Wireframe](public/desktop-view.png)
+![Mobile Wireframe](public/mobile-view.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
 - [![React][React.js]][React-url]
-- [![Material UI][Material-UI]][MUI-url]]
+- [![Material UI][Material-UI]][MUI-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
