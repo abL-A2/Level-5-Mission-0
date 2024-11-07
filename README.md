@@ -18,7 +18,7 @@
       </ul>
     </li>
     <li><a href="#prerequisites">Prerequisites</a></li>
-    <li><a href="#execution">Execution</a>
+    <li><a href="#execution">Execution</a></li>
     <ul>
         <li><a href="#considerations"></a></li>
         <li><a href="#implementation"></a></li>
