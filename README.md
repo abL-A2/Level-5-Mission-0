@@ -26,7 +26,7 @@
     <li><a href="#challenges">Challenges</a></li>
   </ul>
 </li>
-    <li><a href="#presentation"></a></li>
+    <li><a href="#presentation">Presentation</a></li>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
