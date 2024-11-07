@@ -76,7 +76,18 @@ This prototype aims to fullfil the brief for Mission 0, with considerations made
 
 ### Considerations
 
-The brief was succint so I made a few assumptions in my plan. The wireframes were a good start, and the basic elements were obvious: a navbar, a hero banner containing a search box, and some kind of image gallery or media card list.
+The brief is succint so I made a few assumptions. The wireframes were a good start, and the basic elements were obvious: a navbar, a hero banner containing a search box, and some kind of image gallery or media card list. Responsive design would be implemented for mobile devices by making some layout adjustments, notably to the navbar and the cards.
+
+Key assumptions:
+
+- 'template': so it should be easy to duplicate or modify
+- 'news home page': so the images in the wireframe may be intended as media previews with captions or synopses
+
+### Implementation
+
+The colour theme is less a suggestion and more a way to make each part of the page easy to distinguish for ease with future styling. Hero banners are probably best served by on-brand background images or corporate wallpapers, but the brief didn't stipulate that we must suggest a visual theme.
+
+While we only needed one page, i
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
