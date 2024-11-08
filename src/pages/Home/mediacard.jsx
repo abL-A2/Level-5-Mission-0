@@ -35,11 +35,30 @@ const mediaCardItems = [
     alt: `A pukeko striding on turf`,
     url: `https://www.nzbirdsonline.org.nz/species/pukeko`,
   },
+
   {
     image: "/cat-public.png",
     caption: placeHolder,
     alt: `A cat with an orange background`,
     url: `https://http.cat/`,
+  },
+  {
+    image: "/dog-public.jpg",
+    caption: `Lorem ipsum dogor`,
+    alt: `A dog with a bokeh background`,
+    url: `https://http.dog/`,
+  },
+  {
+    image: "/piwakawaka-public.jpg",
+    caption: placeHolder,
+    alt: `A piwakawaka perched on a branch`,
+    url: `https://en.wikipedia.org/wiki/Fantail`,
+  },
+  {
+    image: "/pukeko-public.jpg",
+    caption: placeHolder,
+    alt: `A pukeko striding on turf`,
+    url: `https://www.nzbirdsonline.org.nz/species/pukeko`,
   },
 ];
 // dynamically renders media with captions or snippets, ideal for newsbites; hardcoded array for demo only

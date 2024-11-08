@@ -71,7 +71,8 @@ Grass Green: #7CFC00 (RGB: 124, 252, 0) */
 @media screen and (max-width: 768px) {
   .heroBanner {
     height: 35vh;
-    padding: 2px;
+    padding: 6px;
+    padding-left: 15px;
   }
   .heroBanner h1 {
     font-size: 1.3rem;
